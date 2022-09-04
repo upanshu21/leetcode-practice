@@ -12,6 +12,7 @@ public class ArrayPermutation {
             numsResult[pointer] = nums[nums[pointer]];
         }
         return numsResult;
+
     }
 
 
