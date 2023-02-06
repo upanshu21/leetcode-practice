@@ -13,7 +13,8 @@ public class ShuffleString {
 
     public static void main(String[] args) {
         int[] a = {4,5,6,7,0,2,1,3};
-        String s = "codeleet";
-        System.out.println(restoreString(s,a));
+        String s = "cod    eleet";
+        String f = s.replaceAll("\\s", "");
+        System.out.println(f);
     }
 }
